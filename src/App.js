@@ -4,7 +4,11 @@ import Greeting from './Components/Greeting'
 function App() {
   return (
     <div>
-      <Greeting />
+      <Greeting name="Alice" city="Dallas" />
+      <Greeting name="Dale" city="San Diego" />
+      <Greeting name="Steve" city="Tallahassee" />
+      <Greeting name="Larry" city="Chicago" />
+
     </div>
   )
 }
